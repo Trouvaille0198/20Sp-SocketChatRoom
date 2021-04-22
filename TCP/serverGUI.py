@@ -52,7 +52,7 @@ class MainPage():
             self.message_frame.see(tk.END)
             self.message_frame.config(state='disabled')
 
-    def send_msg(self, event):
+    def send_msg(self, *event):
         msg = self.msg_entry.get()
         server.send(self.con, msg)
         send_time = 'Server' + time.strftime('%Y-%m-%d %H:%M:%S',
