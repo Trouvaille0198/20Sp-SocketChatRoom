@@ -3,7 +3,7 @@
 
 ## 目录结构
 
-```shell
+```
 20SP-SOCKETCHATROOM
 |
 ├───README.md
@@ -91,4 +91,35 @@ py serverGUI.py
 py clientGUI.py
 ```
 
-打开服务端与客户端的 GUI 界面
+打开服务端与客户端的 GUI 界面，输入 ip 地址与端口进行连接
+
+此时服务端进入等待连接界面
+
+![image-20210422214637858](http://image.trouvaille0198.top/image-20210422214637858.png)
+
+客户端进入登陆界面
+
+![image-20210422214705757](http://image.trouvaille0198.top/image-20210422214705757.png)
+
+登陆成功后，即可进行通信
+
+![image-20210422215123783](http://image.trouvaille0198.top/image-20210422215123783.png)
+
+点击 exit 按钮即可退出通信
+
+Tips：
+
+- 建议先使服务端进入等待连接界面，再开启客户端进行登录操作
+
+- 默认的 ip 地址与端口分别为主机地址与9000，可以在程序中修改
+- 登陆账号可以在 `server.py` 中 `Server` 类的 `login_check` 函数里增删
+
+## 技术栈
+
+1. 基于 python 的 socket 库完成核心通信功能
+2. 使用 tkinter 库构建图形界面
+3. 使用 threading 模块实现多线程
+
+## 环境
+
+在 Python 3.9.2 下完成代码编写和程序编译
