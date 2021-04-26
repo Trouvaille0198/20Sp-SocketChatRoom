@@ -5,7 +5,7 @@
 
 ```
 20SP-SOCKETCHATROOM
-|
+│
 ├───README.md
 │
 ├───TCP	// 基于TCP实现
@@ -122,4 +122,11 @@ Tips：
 
 ## 环境
 
-在 Python 3.9.2 下完成代码编写和程序编译
+开发环境
+
+- 系统版本：windows 10
+
+- Python 版本：3.9.2
+
+- 编译器：IDLE
+- 编辑器：Visual Studio Code
