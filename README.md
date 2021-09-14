@@ -66,15 +66,15 @@ py client.py
 
 3. 在客户端程序中输入用户名与密码以登录
 
-![image-20210422210031677](http://image.trouvaille0198.top/image-20210422210031677.png)
+![image-20210422210031677](http://markdown-1303167219.cos.ap-shanghai.myqcloud.com/image-20210422210031677.png)
 
 若登陆成功，此时服务端应显示
 
-![image-20210422210415325](http://image.trouvaille0198.top/image-20210422210415325.png)
+![image-20210422210415325](http://markdown-1303167219.cos.ap-shanghai.myqcloud.com/image-20210422210415325.png)
 
 通信场景如下
 
-![image-20210422210641547](http://image.trouvaille0198.top/image-20210422210641547.png)
+![image-20210422210641547](http://markdown-1303167219.cos.ap-shanghai.myqcloud.com/image-20210422210641547.png)
 
 Tips：
 
@@ -95,15 +95,15 @@ py clientGUI.py
 
 此时服务端进入等待连接界面
 
-![image-20210422214637858](http://image.trouvaille0198.top/image-20210422214637858.png)
+![image-20210422214637858](http://markdown-1303167219.cos.ap-shanghai.myqcloud.com/image-20210422214637858.png)
 
 客户端进入登陆界面
 
-![image-20210422214705757](http://image.trouvaille0198.top/image-20210422214705757.png)
+![image-20210422214705757](http://markdown-1303167219.cos.ap-shanghai.myqcloud.com/image-20210422214705757.png)
 
 登陆成功后，即可进行通信
 
-![image-20210422215123783](http://image.trouvaille0198.top/image-20210422215123783.png)
+![image-20210422215123783](http://markdown-1303167219.cos.ap-shanghai.myqcloud.com/image-20210422215123783.png)
 
 点击 exit 按钮即可退出通信
 
